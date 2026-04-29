@@ -1,9 +1,9 @@
 import logging
 from telegram.ext import Application, CommandHandler, MessageHandler, filters
 
-from app.config import BOT_TOKEN
-from app.handlers.start import start
-from app.handlers.messages import handle_all_messages
+from config import BOT_TOKEN
+from handlers.start import start
+from handlers.messages import handle_all_messages
 
 logging.basicConfig(
     format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
